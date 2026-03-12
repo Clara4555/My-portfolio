@@ -9,6 +9,12 @@ import eduscholaImg from '../assets/eduschola.png' // adjust path as needed
 import embexImg from '../assets/embex.png'
 import saronImg from '../assets/saron.png'
 import yaahmanImg from '../assets/yahman.png'
+import concordImg from '../assets/CONCORD.png'
+import caspyImg from '../assets/CASPY.png'
+import chevronImg from '../assets/chevron.png'
+import equusImg from '../assets/EQUSS.png'
+import eegpnImg from '../assets/EGPN.png'
+import pippaImg from '../assets/PIPPA.png'
 
 const Projects = () => {
   const [ref, inView] = useInView({
@@ -63,6 +69,55 @@ const Projects = () => {
       image: saronImg,
       technologies: ['HTML', 'CSS', 'JavaScript'],
       link: 'https://www.saronbv.com',
+      featured: false
+    },
+     {
+      title: 'Concord Bulk Carrier',
+      description: 'Corporate website showcasing services and company information',
+      image: concordImg,
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      link: 'https://www.concordbulkcarrier.com/',
+      featured: false
+    },
+     {
+      title: 'CHevron Caspian Exchange Platform',
+      description: 'Corporate website showcasing services and company information',
+      image: chevronImg,
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      link: 'https://www.chevroncasexp.com/',
+      featured: false
+    },
+     {
+      title: 'Equus Petroleum BV',
+      description: 'Corporate website showcasing services and company information',
+      image: equusImg,
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      link: 'https://www.equuspetroleumbv.com/',
+      featured: false
+
+    },
+     {
+      title: 'EGPN Bulk Carrier',
+      description: 'Corporate website showcasing services and company information',
+      image: eegpnImg,
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      link: 'https://www.egpnbulkcarrier.us/',
+      featured: false
+    },
+     {
+      title: 'CASPIAN Shipping',
+      description: 'Corporate website showcasing services and company information',
+      image: caspyImg,
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      link: 'https://caspytechgas.kz/',
+      featured: false
+    },
+     {
+      title: 'Pippa Shipping',
+      description: 'Corporate website showcasing services and company information',
+      image: pippaImg,
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      link: 'https://pippashipping.com/',
       featured: false
     },
     {
